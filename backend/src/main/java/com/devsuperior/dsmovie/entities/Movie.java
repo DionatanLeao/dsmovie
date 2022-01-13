@@ -6,6 +6,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.devsuperior.dsmovie.dto.MovieDTO;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,5 +28,6 @@ public class Movie {
 	private Double score;
 	private Integer count;
 	private String image;
+
 
 }
