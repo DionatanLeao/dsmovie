@@ -9,7 +9,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class ScoreDTO {
 	
-	private Long id;
+	private Long movieId;
 	private String email;
 	private Double score;
 }
